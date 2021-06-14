@@ -1,0 +1,63 @@
+/* 
+
+      /::/                              
+     /::/____   ________     _______ 
+    /::/  /::/ /::/  \::\   /::/ \::\
+   /::/  /::/ /::/___/::/  /::/  /::/
+  /::/__/::/  \::\______  /::/  /::/
+
+  © 2021 Ben Raz
+  Written By Ben Raz with input from Ron raz
+                         
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Fraunces&display=swap');
+
+* {
+    font-family: 'Commissioner';
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+body {
+    background-color: white;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+
+form {
+    margin: 0;
+}
+
+.benInput {
+    margin-bottom: 5pt;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    border-color: rgb(126, 126, 126);
+    color:rgb(126, 126, 126);
+    border-style:solid;
+}
+
+.submitButton {
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-style: solid;
+    font-weight: 600;
+    border-color:rgb(5, 143, 0);
+    color:rgb(5, 143, 0)
+}
+.submitButton:hover {
+    background-color:rgb(5, 143, 0);
+    color: white;
+}
